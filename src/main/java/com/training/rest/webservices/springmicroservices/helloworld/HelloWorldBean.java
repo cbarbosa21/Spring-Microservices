@@ -1,4 +1,4 @@
-package com.training.rest.webservices.springmicroservices;
+package com.training.rest.webservices.springmicroservices.helloworld;
 
 public class HelloWorldBean {
 

@@ -1,4 +1,4 @@
-package com.training.rest.webservices.springmicroservices;
+package com.training.rest.webservices.springmicroservices.helloworld;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
