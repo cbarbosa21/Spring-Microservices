@@ -13,14 +13,12 @@ public class UserResource {
     @Autowired
     private UserDAOService service;
 
-    // GET /users
     // retrieve all users
     @GetMapping(path = "/users")
     public List<User> getAllUsers() {
         return service.findAll();
     }
 
-    // GET /users/{id}
     // retrieve user
     @GetMapping(path = "/users/{id}")
     public User getUser(@PathVariable int id) {
